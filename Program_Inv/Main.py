@@ -1,28 +1,20 @@
-import library.tes as lib
+import library.lib as lib
 
 print("Program Inventory")
 
 while True:
 	run = lib.Menu()
 	if run == '1':
-		lib.coba():
-			lib.Barang_Baru()
-		lib.error()
+		lib.Barang_Baru()
 
 	elif run =='2':
-		lib.coba():
-			lib.Tambah_Stock()
-		lib.error()
+		lib.Tambah_Stock()
 			
 	elif run == '3':
-		lib.coba():
-			lib.Check_Stock()
-		lib.error()
-
+		lib.Check_Stock()
+		
 	elif run == '4':
-		lib.coba():
-			lib.Terjual()
-		lib.error()
+		lib.Terjual()
 			
 	elif run == 'q':
 		break
