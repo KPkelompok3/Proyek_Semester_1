@@ -8,7 +8,7 @@ def Menu():
 		Tekan 2 : Tambah Stock Barang
 		Tekan 3 : Check Stock Barang
 		Tekan 4 : Barang Terjual
-		Tekan q : Keluar pergi
+		Tekan q : Keluar gann
 		=============================
 		""")
 	return str(input("Masukan pilihan anda: "))
