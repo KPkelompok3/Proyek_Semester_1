@@ -7,7 +7,7 @@ def Menu():
 		Tekan 1 : Masukan Barang Baru
 		Tekan 2 : Tambah Stock Barang
 		Tekan 3 : Check Stock Barang
-		Tekan 4 : Barang Terjual
+		Tekan 4 : Barang Yang Terjual
 		Tekan q : Keluar gann
 		=============================
 		""")
