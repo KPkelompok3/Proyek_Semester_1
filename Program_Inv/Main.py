@@ -1,4 +1,3 @@
-print("Program Inventory")
 import library.lib as lib
 
 print("Program Inventory")
@@ -13,10 +12,10 @@ while True:
 			
 	elif run == '3':
 		lib.Check_Stock()
-		
+
 	elif run == '4':
 		lib.Terjual()
-			
+
 	elif run == 'q':
 		break
 
