@@ -1,3 +1,4 @@
+print("new")
 import library.lib as lib
 
 print("Program Inventory")
