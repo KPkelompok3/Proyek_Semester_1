@@ -1,4 +1,4 @@
-stock ={'LS 155':0,'CB 434':0,'CB 449':0,'CB 494':0,'NS 150':0}
+stock ={'LS 155':0,'CB 330 barang':0,'CB 449':0,'CB 494':0,'NS 150':0}
 
 def Menu():
 	print("""
@@ -26,7 +26,7 @@ def Barang_Baru():
 		jumlah = int(input("Jumlah barang masuk: "))
 		stock[addStock] = jumlah
 
-		file.write("'{}'".format(addStock) + ":{}\n".format(jumlah))
+		file.write("'{barang}'".format(addStock) + ":{}\n".format(jumlah))
 		file.close()
 
 	except ValueError:
@@ -41,7 +41,7 @@ def Tambah_Stock():
 
 		print("Stock yang akan di tambah?")
 		for key, value in stock.items():
-			print("{}:{}".format(key, value))
+			print("{}:{}, barang".format(key, value))
 
 		item = input("Masukan Barang yang akan ditambah:")
 		stock[item] += int(input("Masukan  Jumlah barang: "))
