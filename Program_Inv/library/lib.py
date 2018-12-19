@@ -74,7 +74,7 @@ def Terjual():
 	
 		if stock[item] > 0:
 			stock[item] -= int(input("Terjual: "))
-			print("{} tersisa {}".format(item, stock[item]))
+			print("{} tersisa {}".format(item , stock[item + 2]))
 		
 		else:
 			print("stock barang {} habis".format(item))
