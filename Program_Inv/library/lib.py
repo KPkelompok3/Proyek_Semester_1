@@ -58,7 +58,7 @@ def Check_Stock():
 		global value
 
 		for key, value in stock.items():
-			print("{} tersisa {}".format(key, value))
+			print("{} tersisa {}2".format(key, value))
 	
 	except ValueError:
 		print("Masukan jumlah barang menggunakan angka, bukan teks")
